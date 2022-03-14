@@ -7,6 +7,13 @@
 # 5.1 Video 1
 ## Learning Objective
 * Explain how an effect of a computing innovation can be both beneficial and harmful
+
+Drones:
+Beneficial: Can provide more acurate images, views that we couldn't access before, can transport items long distances without using gas
+Harmful: Could be used for bad motives, invade privacy, essentially could be used as a weapon
+
+* Dopamine
+Reasonably speaking dopamine is harmful for the users but it is needed for 
 ## Essential Knowledge
 * People create computing innovations
 * The way people complete tasks often changes to incorporate new computing innovations
@@ -45,7 +52,15 @@
 * Microtransactions
 * Free games/apps
 * cosmetics/pay-to-win/paywall to functionality
+
 # 5.2 Video 1
+* How does one empower themself in a digital world?
+One empowers themself in a digital world by using their access to technology to progress society. They can do this by gathering resources to help others, to write code helping others, or to organize ideas
+* How does someone empowerd help someone not empowered?
+Someone can use their resources to help raise funds for others to help give then access to digital devices.
+* Is red tape blocking digital empowerment?
+Red tape does block digital empowerment, but it also helps empower others. Red tape is complicated because in order to fix red tape, one must use more red tape in the government to resolve those differences. Therefore it is necessary in order to help advance digital empowerment.
+
 * Internet access varies between socioeconomic, geographic, and demographic characteristics, as well as between countries
 * The digital divide refers to differing access to computing devices and the internet, based on socioeconomic, geographic, or demographic characteristics
 * The digital divide can affect both groups and individuals
@@ -86,6 +101,7 @@
 * Internet access varies between socioeconomic, geographic, and demographic characteristics, as well as between countries
 * The digital divide refers to differing access to computing devices and the internet, based on socioeconomic, geographic, or demographic characteristics
 * The digital divide can 
+
 # 5.4 Video 1
 * Crowdsourcing
 ## Essential knowledge
