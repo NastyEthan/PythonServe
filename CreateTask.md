@@ -1,0 +1,1 @@
+Idea: Create a match calculator that can organize data and sort them, as well as create averages, predictions, regression lines, and more. Used to draw out data for fantasy football and analyze data. Will have inputs and more.
