@@ -4,6 +4,6 @@
 
 ## Welcome to GitHub Pages
 
-* [Link to Replit](https://github.com/NastyEthan/PythonServe/blob/main/replit.md/main.py)
+* [Link to Replit](https://replit.com/@NastyEthan/PythonServe#pythonFiles/main.py)
 
 * [Link to Create Task](https://github.com/NastyEthan/PythonServe/blob/main/CreateTask.md)
