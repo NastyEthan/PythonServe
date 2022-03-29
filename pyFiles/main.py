@@ -2,7 +2,9 @@ import runpy
 import TT0
 import TT1
 import TT2
-import TT3
+import Swap
+import Construct
+
 # abstracted files in a folder (aka module)
 # don't need since they're in the same file
 
@@ -11,22 +13,30 @@ import TT3
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
 main_menu = [
-    ["TT0", TT0.pac],
-    ["TT1", TT1],
-    ["TT2", TT2],
-    ["TT2", TT2],
 ]
 
 # Submenu list of [Prompt, Action]
-sub_menu = [
-    ["TT0", TT0.pac],
+sub_menu0 = [
+    ["Construct", Construct.mat],
+    ["Pac", TT0.pac],
 ]
 
-# patterns_sub_menu = [
-#     ["Patterns", "patterns.py"],
-#     ["PreFuncy", "wipy/prefuncy.py"],
-#     ["Funcy", funcy.ship],
-# ]
+sub_menu = [
+    ["Swap", Swap.swap],
+    ["Loops/Lists", TT1.tester],
+    ["Fibonacci", TT1.tester2],
+    ["Factorials", TT2.ftester],
+    ["Factors.Imperative", TT2.factors],
+    ["Factors.OOP", TT2.testerfOOP],
+]
+
+sub_menu1 = [
+    ["Loops/Lists", TT1.tester],
+]
+
+sub_menu2 = [
+    ["Loops/Lists", TT1.tester],
+]
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -40,7 +50,10 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Math", submenu])
+    menu_list.append(["Patterns", submenu0])
+    menu_list.append(["Math Functions", submenu])
+    menu_list.append(["Databases", submenu1])
+    menu_list.append(["Empty", submenu2])
     # menu_list.append(["Patterns", patterns_submenu])
     buildMenu(title, menu_list)
 
@@ -50,10 +63,19 @@ def menu():
 def submenu():
     title = "Function Submenu" + banner
     buildMenu(title, sub_menu)
-def patterns_submenu():
-    title = "Function Submenu" + banner
-    buildMenu(title, patterns_sub_menu)
 
+def submenu1():
+    title = "Function Submenu1" + banner
+    buildMenu(title, sub_menu1)
+
+def submenu0():
+    title = "Function Submenu0" + banner
+    buildMenu(title, sub_menu0)
+  
+def submenu2():
+    title = "Function Submenu2" + banner
+    buildMenu(title, sub_menu2)
+  
 def buildMenu(banner, options):
     # header for menu
     print(banner)
