@@ -49,6 +49,8 @@ def pac():
         time.sleep(.1)
 ```
 
+## Week 1
+
 ### DATABASE
 ```
 # Hack 1: InfoDB lists.  Build your own/personalized InfoDb with a list length > 3,  create list within a list as illustrated with Owns_Cars
@@ -122,11 +124,58 @@ def tester():
     recursive_loop(0)  # requires initial index to start recursion
 ```
 
-## Week 1
+### Fibonnaci
+```
+# Hack 3: Fibonacci.  Write a recursive program to create a fibonacci sequence including error handling for invalid input
+def fibonnaci(n):
+  if n == 0:
+      return 0
+  elif n == 1:
+      return 1
+  else:
+      return fibonnaci(n-1) + fibonnaci(n-2) # recursive portion
 
+
+def tester2():
+  try:
+    num = int(input("Enter a number for fibonnaci: "))
+    i = 0
+    fs = []
+    while (i <= num): 
+      fs.append(fibonnaci(i)) # adding to list
+      i +=1
+    print(fs)
+    for i in range(len(fs)): # using loop to display
+      print(fs[i], end=" ")
+    print()
+  except:
+    print("Sorry, fibonnaci does not exist for negative numbers, characters, or symbols")
+
+```
 
 ## Week 2
+### Factorial
+```
+class Factorial():
+  def __init__(self):
+      self.fac = 1 # sets 1 as start
+  def __call__(self, n):
+      if n < self.fac:
+          return self.fac
+      else:
+        sol = n * self(n - 1) # factorial part
+      return sol
 
+def ftester():
+  # Create instance of factorial object
+  fac = Factorial() 
+  try:
+    x = int(input("Enter number to take factorial of "))
+    print(fac(x))
+  except:
+    print("Something went wrong")
+    
+```
 
 ## Week 3
 
