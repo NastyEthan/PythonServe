@@ -202,7 +202,6 @@ def testerfOOP(): # tester for OOP
     print(fO(x))
   except:
     print("Something went wrong")
-
 ```
 ## Week 3
 
