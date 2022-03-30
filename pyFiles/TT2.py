@@ -8,25 +8,7 @@ class Factorial():
         sol = n * self(n - 1) # factorial part
       return sol
 
-def factors():
-  num = int(input("Enter a number to factor: "))
-  print('The factors of', num, 'are:')
-  for i in range(1, num+1):
-      if(num % i) == 0:
-          print(i, end=' ')
-  print()
-
-class factors2():
-  def __init__(self):
-    print("1", end=" ") # 1 will always be a factor
-  def __call__(self, n):
-    for i in range(2,n + 1): # Check for factors after 1
-      if n % i == 0:
-        print(i, end=" ")
-    print()
-          
-
-def ftester():
+def ftester(): # tester for factorial
   # Create instance of factorial object
   fac = Factorial()
   try:
@@ -35,10 +17,28 @@ def ftester():
   except:
     print("Something went wrong")
 
-def testerfOOP():
+
+def factors(): # imperative
+  num = int(input("Enter a number to factor: "))
+  print('The factors of', num, 'are:')
+  for i in range(1, num+1):
+      if(num % i) == 0:
+          print(i, end=' ')
+  print()
+
+class factors2(): # OOP
+  def __init__(self):
+    print("1", end=" ") # 1 will always be a factor
+  def __call__(self, n):
+    for i in range(2,n + 1): # Check for factors after 1
+      if n % i == 0:
+        print(i, end=" ")
+    print()
+
+def testerfOOP(): # tester for OOP
   try:
     x = int(input("Enter a number to factor: "))
     fO = factors2()
-    print(fO(x))
+    fO(x)
   except:
     print("Something went wrong")
