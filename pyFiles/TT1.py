@@ -93,5 +93,17 @@ def tester2():
     print("Sorry, fibonnaci does not exist for negative numbers, characters, or symbols")
 
 
+def palindrome():
+  class Palindrome(object): 
+    def function(self, a_string): 
+        self.a_string = a_string 
+        len_a = len(self.a_string) 
+        x = int(len_a / 2) 
+ 
+        if self.a_string[0:x] == self.a_string[-1:-x - 1:-1]: 
+            print("This is a Palindrome String") 
+        else: 
+            print("This is not a Palindrome String") 
+ 
 # tester()
 # tester2()
