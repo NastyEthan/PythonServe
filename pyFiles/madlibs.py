@@ -1,6 +1,15 @@
 def madlibs():
-  object = input("Enter an animal: ")
-  noun2 = input("Enter another animal: ")
-  noun3 = input("Enter an object: ")                                                    
- 
-  print("The " + noun + " and the " + noun2 + " went to the park in a beautiful green " +  noun3 + ".")
+  animal = input("Enter an animal: ")
+  person = input("Enter a person: ")
+  object = input("Enter an object: ")                                                    
+
+  if animal <= "":
+    print("Please enter an animal")
+  if person <= "":
+    print("Please enter a person")
+  if object <= "":
+    print("Please enter an object")
+
+  print("The " + animal + " and the " + person + " went to the park in a bright blue " + object + ".")
+
+  
