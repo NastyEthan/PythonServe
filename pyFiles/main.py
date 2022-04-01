@@ -4,6 +4,7 @@ import TT1
 import TT2
 import Swap
 import Construct
+import madlibs
 
 # abstracted files in a folder (aka module)
 # don't need since they're in the same file
@@ -36,7 +37,7 @@ sub_menu1 = [
 ]
 
 sub_menu2 = [
-    ["Loops/Lists", TT1.tester],
+    ["Mad Libs", madlibs.madlibs],
 ]
 
 # Menu banner is typically defined by menu owner
@@ -54,7 +55,7 @@ def menu():
     menu_list.append(["Patterns", submenu0])
     menu_list.append(["Math Functions", submenu])
     menu_list.append(["Databases", submenu1])
-    menu_list.append(["Empty", submenu2])
+    menu_list.append(["Games", submenu2])
     # menu_list.append(["Patterns", patterns_submenu])
     buildMenu(title, menu_list)
 
