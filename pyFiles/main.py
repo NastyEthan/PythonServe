@@ -5,6 +5,7 @@ import TT2
 import Swap
 import Construct
 import madlibs
+import rockpaperscissors
 
 # abstracted files in a folder (aka module)
 # don't need since they're in the same file
@@ -38,6 +39,7 @@ sub_menu1 = [
 
 sub_menu2 = [
     ["Mad Libs", madlibs.madlibs],
+    ["Rock Paper Scissors", rockpaperscissors.rps],
 ]
 
 # Menu banner is typically defined by menu owner
