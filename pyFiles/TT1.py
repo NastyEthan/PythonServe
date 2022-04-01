@@ -93,7 +93,7 @@ def tester2():
     print("Sorry, fibonnaci does not exist for negative numbers, characters, or symbols")
 
 
-def palindrome():
+def ethanpalindrome():
   class Palindrome(object): 
     def function(self, a_string): 
         self.a_string = a_string 
@@ -104,6 +104,10 @@ def palindrome():
             print("This is a Palindrome String") 
         else: 
             print("This is not a Palindrome String") 
+
+  x = input("Enter the String: ")  
+  Object = Palindrome() 
+  
+  Object.function(x)
+
  
-# tester()
-# tester2()

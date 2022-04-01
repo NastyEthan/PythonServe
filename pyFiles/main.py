@@ -28,6 +28,7 @@ sub_menu = [
     ["Factorials", TT2.ftester],
     ["Factors.Imperative", TT2.factors],
     ["Factors.OOP", TT2.testerfOOP],
+    ["Palindrome", TT1.ethanpalindrome],
 ]
 
 sub_menu1 = [
