@@ -1,22 +1,26 @@
+import random
+
 def rps():
   player = input("Enter rock, paper, or scissors:")
   choices = ["rock", "paper", "scissors"]
   computer = random.choice(choices)
 
+  print(f"The computer chose {computer}")
+
   if player == computer:
-    print(f"Both players selected {computer}. It's a tie!")
-  elif player == "rock":
-      if computer == "scissors":
-          print("Rock smashes scissors! You win!")
-      else:
-          print("Paper covers rock! You lose.")
+    print("It's a tie!")
   elif player == "paper":
       if computer == "rock":
-          print("Paper covers rock! You win!")
+          print("Paper beats rock! you win!")
       else:
-          print("Scissors cuts paper! You lose.")
+          print("Scissors beats paper, you lose.")
+  elif player == "rock":
+      if computer == "scissors":
+          print("Rock beats scissors, you win!")
+      else:
+          print("Paper beats rock, you lose.") 
   elif player == "scissors":
       if computer == "paper":
-          print("Scissors cuts paper! You win!")
+          print("Scissors beats paper, you win!")
       else:
-        print("Rock smashes scissors! You lose.")
+        print("Rock beats scissors, you lose.")
