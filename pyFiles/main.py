@@ -125,6 +125,16 @@ def buildMenu(banner, options):
 
     buildMenu(banner, options)  # recursion, start menu over again
 
+@app_crud.route('/')
+@login_required  # Flask-Login uses this decorator to restrict access to logged in users
+def crud():
+    """obtains all Users from table and loads Admin Form"""
+    return render_template("crud.html", table=users_all())
+  
+@login_manager.unauthorized_handler
+def unauthorized():
+    """Redirect unauthorized users to Login page."""
+    return redirect(url_for('crud.crud_login'))
 
 if __name__ == "__main__":
   menu()

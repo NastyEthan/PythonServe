@@ -41,4 +41,4 @@ def testerfOOP(): # tester for OOP
     fO = factors2()
     fO(x)
   except:
-    print("Something went wrong")
+    print("Something went wrong") # error handling
