@@ -217,3 +217,21 @@ fs = [1,]
 ```
 * The list stores all the numbers of the Fibonacci sequence
 * When the user inputs how many times the loop runs, the list will store each new value created in the sequence
+
+### Function with passed in parameter
+```javascript
+function factorial (e) {
+    let count = 1;
+    let ans = 1;
+    while (count <= e-1) {
+        count += 1;
+        ans = count * ans
+    }
+    console.log(ans);
+    document.getElementById("ans").innerHTML = "Answer is " + ans;
+}
+function factdriver () {
+    e = document.getElementById("e").value;
+    factorial(e)
+}
+```
