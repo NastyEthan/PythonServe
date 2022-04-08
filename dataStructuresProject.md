@@ -207,4 +207,46 @@ def testerfOOP(): # tester for OOP
 
 
 ## Week 4
+### Phone number
+### crud.html
+```
+              <table class="table">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Password</th>
+                                <th>Phone</th>
+                            </tr>
+                   
+                            <td><input type="text" name="name" id="name" required></td>
+                            <td><input type="email" name="email" id="email" placeholder="abc@xyz.org" required></td>
+                            <td><input type="password" name="password" id="password" required></td>
+                            <td><input type="phone" name="phone" id="phone" pattern="[0-9]{10}" placeholder="1234567890" required></td>
+                            <td><input type="submit" value="Create"></td>
+```
+### Add Logout to crud screen
+### query.py
+```
+# logout user
+def logout():
+    logout_user()  # removes login state of user from session
+    return redirect(url_for('crud.crud_login'))
+```
+### navbar.html
+```
+<!-- Log In/Log Out -->
+        <div class="px-3 text-dark">
+            <button type="button" onclick="window.location.href='{{url_for('crud.crud_logout')}}';">Log Out</button>
+        </div>
+```
+### Add login_required to another portion of the project
+```
+@app_frontend.route('/snake')
+from flask_login import login_required
 
+@login_required  # Flask-Login uses this decorator to restrict acess to logged in users
+def snake():
+    return render_template("snake.html")
+```
