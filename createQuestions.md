@@ -21,10 +21,10 @@ data or accessing multiple elements in the list, as part of fulfilling
 the program’s purpose.
 
 Then, provide a written response that does all three of the following:
-iii. Identifies the name of the list being used in this response
-iv. Describes what the data contained in the list represent in your
+* Identifies the name of the list being used in this response
+* Describes what the data contained in the list represent in your
 program
-v. Explains how the selected list manages complexity in your program
+* Explains how the selected list manages complexity in your program
 code by explaining why your program code could not be written, or
 how it would be written differently, if you did not use the list
 
