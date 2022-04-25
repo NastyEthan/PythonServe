@@ -3,11 +3,13 @@
 ## 3 a. Provide a written response that does all three of the following:
 Approx. 150 words (for all subparts of 3a combined)
 * Describes the overall purpose of the program
+This program essentially does a couple quick math calculations. It serves as a calculator to calculate the area of a triangle, factorial, and fibonacci sequences quickly.
 * Describes what functionality of the program is demonstrated in
 the video
+Each function is shown in the video in which each textfield parameters needed from the user. The initial value in the text fields indicate 
 * Describes the input and output of the program demonstrated in
 the video
-
+In this case, the user must input a number into the text field of what number they want to take the factorial of. They can also input two values in the other text field to calculate the area (one for base and one for height). The last one generates the fibonacci sequence up to the input term.
 ## 3 b. Capture and paste two program code segments you developed during
 the administration of this task that contain a list (or other collection
 type) being used to manage complexity in your program.
