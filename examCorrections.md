@@ -1,5 +1,6 @@
 # Exam Corrections
 
+# Exam 1
 ## Question 23
 ### Which of the following has the greatest potential for compromising a user’s personal privacy?
 * A group of cookies stored by the user’s Web browser
@@ -49,3 +50,45 @@ I carelessly picked A in this case when I meant to pick C
 
 ## Correction
 I picked C but the correct answer was D. If the negative of the image is made, each RGB value will be preserved through the process of subtracting from 255, but if the pixels are copied the values will be lost forever.
+
+# Exam 2
+
+## Question 8
+### Which of the following is NOT an advantage of using open-source software?
+* Open-source software is generally free or lower in cost than commercially available software.
+* The availability of source code makes it possible to customize open-source software to a user’s individual needs.
+* The original developer of open-source software provides free or low-cost support for users installing and running the software.
+* Unlike commercial software, which can become obsolete when the company that created it goes out of business, open-source software can be updated without the involvement of the original programmers.
+
+## Correction
+I was very confused with this question but after realizing that the answer was C the answer makes more sense to me. C is a better answer than B because C doesn't actually always happen, so with this question I should've been looking for something that wasn't actually true not given
+
+## Question 14
+### Which of the following best describes the average amount of data stored per user for the first eight years of the application’s existence?
+* Across all eight years, the average amount of data stored per user was about 10 GB.
+* Across all eight years, the average amount of data stored per user was about 100 GB.
+* The average amount of data stored per user appears to increase by about 10 GB each year.
+* The average amount of data stored per user appears to increase by about 100 GB each year.
+
+## Correction
+I knew how to do this problem, but I accidentally selected 100 instead of 10 - multiplication error that could be corrected by being a little more careful and checking answers
+
+## Question 32
+### Which of the following statements is true about how the eight directions must be stored in memory?
+* Four bits are not enough to store the eight directions. Five bits are needed for the new version of the game.
+* Four bits are not enough to store the eight directions. Eight bits are needed for the new version of the game.
+* Four bits are not enough to store the eight directions. Sixteen bits are needed for the new version of the game.
+* Four bits are enough to store the eight directions.
+
+## Corrections
+Another simple mistake, miscounting the bits. bits go from 2^x, should've been D did not neet another bit (for 8 total directions)
+
+## Question 45
+### Which of the following pairs of spreadsheets can be combined and analyzed to determine the desired information?
+* Spreadsheets I and II
+* Spreadsheets I and IV
+* Spreadsheets II and III
+* Spreadsheets III and IV
+
+## Corrections
+This was actually a very tricky problem I probably would've missed even if I was careful. Choice A is the best because we don't need GPA above 3.5 or not, but we need GPAs from each student and who are athletes. A fits this criteria the best.
