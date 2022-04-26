@@ -1,5 +1,6 @@
 # Create Task Responses
 
+# [Link to Create Task](https://www.loom.com/share/966c23bb8c6143d1a98ce7cea384f01a)
 ## 3 a. Provide a written response that does all three of the following:
 Approx. 150 words (for all subparts of 3a combined)
 
@@ -55,9 +56,8 @@ for i in range(b-1):
 ### Identifies the name of the list being used in this response
 The list is called "z" and when the program runs the program will create the number in the fibonacci sequence and append it to the list until it reaches the desired term.
 
-### Describes what the data contained in the list represent in your
-program
-Inside the list are the generated terms of the fibonacci sequence
+### Describes what the data contained in the list represent in your program
+Inside the list are the generated terms of the fibonacci sequence. They are created by the loop and are appended into the list.
 
 ### Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list
 Since we wanted to generate the entire fibonacci sequence up to the inputed term, we needed to be able to display multiple items. Without a list, we could not append the fibonacci numbers to something and then display it to show to the user.
@@ -67,10 +67,10 @@ Approx. 200 words (for all subparts of 3c combined, exclusive of
 program code)
 
 ### The first program code segment must be a student-developed procedure that:
-□ Defines the procedure’s name and return type (if necessary)
-□ Contains and uses one or more parameters that have an effect
+* Defines the procedure’s name and return type (if necessary)
+* Contains and uses one or more parameters that have an effect
 on the functionality of the procedure
-□ Implements an algorithm that includes sequencing, selection,
+* Implements an algorithm that includes sequencing, selection,
 and iteration
 
 ```
@@ -96,7 +96,7 @@ Credit: This is my partner Anirudh Ramachandran's Code. We worked together on th
 Credit: This is my partner Anirudh Ramachandran's Code. We worked together on this project.
 
 ### Describes in general what the identified procedure does and how it contributes to the overall functionality of the program
-The procedure in this case is in the python code for the fibonacci sequence. The procedure describes all the steps needed to create the sequence and display it for the user. 
+The procedure in this case is in the javascript for the function finding the area of the triangle. The function takes two parameters from the user and multiplies them and halves the product in order to get the area of a triangle with those dimensions. Since it finds the area of a triangle, it serves as another math product to put for our math functions program.
 
 ### Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.
-First, it has error handling for invalid inputs such as negatives using a Try and Except, then initiates by starting with initial values (we could've used an innit here but did not learn it at the time we wrote this). Similar to an innit, it sets an if condition for when the user puts "1" into the program to return the first term. Then, it creates the sequence that makes fibonacci. Then, it appends those created values to a list that contains the entire fibonacci list. It repeats this loop of generating and adding fibonacci terms until it reaches the term that matches the input from the user.
+First, it creates constants for the base and height values required by the user. Then, it checks for negative inputs to execute error handling with an if/else statement. Lastly, it executes the code to generate the area of the triangle with proper inputs. Once given, it will return the answer by pringing a statement without relaoding the page of the answer.
