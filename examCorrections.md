@@ -115,19 +115,32 @@ This question was tricky, but if I looked at all of the answer options more clos
 ## Corrections
 I was between the answers B and D and lost the coinflip when deciding this. Essentially my definition of the world wide web was incorrect.
 
-## Question 
-### 
+## Question 34
+### For which of the following situations would it be best to use a heuristic in order to find a solution that runs in a reasonable amount of time?
+
+* Appending a value to a list of  n  elements, which requires no list elements be examined.
+* Finding the fastest route that visits every location among n locations, which requires n! possible routes be examined.
+* Performing a binary search for a score in a sorted list of n scores, which requires that fewer than n scores be examined.
+* Performing a linear search for a name in an unsorted database of n people, which requires that up to n entries be examined.
 
 ## Corrections
+I misread this question. I meant to select the answer that does not need a huerstic but the question asked for the program that won't finish in reasonable time.
 
-
-## Question 
-### 
+## Question 41
+### In public key cryptography, the sender uses the recipient’s public key to encrypt a message. Which of the following is needed to decrypt the message?
+* The sender’s public key
+* The sender’s private key
+* The recipient’s public key
+* The recipient’s private key
 
 ## Corrections
+I didn't know the answer to this question straight up. The answer is D because logically speaking the recipient would need a private key or else the message would not be decrypted
 
-
-## Question 
-### 
+## Question 46
+### Which of the following is an example of symmetric encryption?
+* Evy buys a locked box that operates using two different codes. When the first code is entered, a slot opens that allows a message to be put in the box. When the second code is entered, the door to the box opens. Evy gives the first code to her friends so they can leave messages for her and keeps the second code to herself so that she is the only one who can retrieve the messages.
+* Finn and Gwen develop a system that maps each letter of the alphabet to a unique symbol using a secret key. Finn uses the key to write a message to Gwen where each letter is replaced with the corresponding symbol. Gwen uses the key to map each symbol back to the original letter.
+* Hannah writes a message to send to Isabel and hides the message under a rock behind the soccer field. Hannah gives Isabel the exact location of the rock so that only Isabel can find the message.
+* Juan writes a message to send to Kelly and slides the message through a slot in the front of Kelly’s locker. Juan knows that Kelly has not shared her locker combination with anyone, so no one other than Kelly will be able to read the message.
 
 ## Corrections
