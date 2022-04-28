@@ -144,3 +144,4 @@ I didn't know the answer to this question straight up. The answer is D because l
 * Juan writes a message to send to Kelly and slides the message through a slot in the front of Kelly’s locker. Juan knows that Kelly has not shared her locker combination with anyone, so no one other than Kelly will be able to read the message.
 
 ## Corrections
+This question was difficult because I didn't know the symmetric encryption. I could've gotten this question right by reviewing terms such as symmetric encryption
