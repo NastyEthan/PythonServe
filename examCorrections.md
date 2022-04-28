@@ -104,11 +104,16 @@ This was actually a very tricky problem I probably would've missed even if I was
 ## Corrections
 This question was tricky, but if I looked at all of the answer options more closely I would've found that D was a better choice than B, since documentation is needed after the program is finished
 
-## Question 
-### 
+## Question 30
+### Which of the following best explains the relationship between the Internet and the World Wide Web?
+
+* Both the Internet and the World Wide Web refer to the same interconnected network of devices.
+* The Internet is an interconnected network of data servers, and the World Wide Web is a network of user devices that communicates with the data servers.
+* The Internet is a local network of interconnected devices, and the World Wide Web is a global network that connects the local networks with each other.
+* The Internet is a network of interconnected networks, and the World Wide Web is a system of linked pages, programs, and files that is accessed via the Internet.
 
 ## Corrections
-
+I was between the answers B and D and lost the coinflip when deciding this. Essentially my definition of the world wide web was incorrect.
 
 ## Question 
 ### 
