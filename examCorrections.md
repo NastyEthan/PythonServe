@@ -92,3 +92,37 @@ Another simple mistake, miscounting the bits. bits go from 2^x, should've been D
 
 ## Corrections
 This was actually a very tricky problem I probably would've missed even if I was careful. Choice A is the best because we don't need GPA above 3.5 or not, but we need GPAs from each student and who are athletes. A fits this criteria the best.
+
+# Exam 3
+## Question 15
+### Which of the following is a true statement about program documentation?
+* Program documentation should not be changed after it is first written.
+* Program documentation is only needed for programs in development; it is not needed after a program is completed.
+* Program documentation is useful when programmers collaborate but not when a programmer works individually on a project.
+* Program documentation is useful during initial program development and also when modifications are made to existing programs.
+
+## Corrections
+This question was tricky, but if I looked at all of the answer options more closely I would've found that D was a better choice than B, since documentation is needed after the program is finished
+
+## Question 
+### 
+
+## Corrections
+
+
+## Question 
+### 
+
+## Corrections
+
+
+## Question 
+### 
+
+## Corrections
+
+
+## Question 
+### 
+
+## Corrections
