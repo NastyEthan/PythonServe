@@ -38,6 +38,7 @@ if request.form:
                     i += 1
                     fs.append(z)
 ```
+Credit: I wrote this code.
 
 ### The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose.
 
@@ -50,6 +51,7 @@ for i in range(b-1):
                     fs.append(z)
                 return render_template("aecreatetaskIndex.html", a="The Fibonaci sequence up to term " + a + " is: ", fs=fs) # accounts for any other number input, appends new turns to list
 ```
+Credit: I wrote this code.
 
 ### Then, provide a written response that does all three of the following:
 
