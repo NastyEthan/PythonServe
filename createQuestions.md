@@ -1,4 +1,4 @@
-# Create Task Responses
+<!-- # Create Task Responses
 
 # [Link to Create Task](https://www.loom.com/share/966c23bb8c6143d1a98ce7cea384f01a)
 ## 3 a. Provide a written response that does all three of the following:
@@ -102,3 +102,4 @@ The procedure in this case is in the javascript for the function finding the are
 
 ### Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it.
 First, it creates constants for the base and height values required by the user. Then, it checks for negative inputs to execute error handling with an if/else statement. Lastly, it executes the code to generate the area of the triangle with proper inputs. Once given, it will return the answer by pringing a statement without relaoding the page of the answer.
+ -->
