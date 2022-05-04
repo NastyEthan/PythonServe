@@ -145,3 +145,50 @@ I didn't know the answer to this question straight up. The answer is D because l
 
 ## Corrections
 This question was difficult because I didn't know the symmetric encryption. I could've gotten this question right by reviewing terms such as symmetric encryption
+
+# Exam 5
+## Question 3
+### For which of the following procedure calls does the procedure NOT return the intended value?
+* The figure presents a line of code. The line of code contains a nested block of code. Line 1: [begin block] Multiply [begin block] 2, 5 [end block] [end block]
+* The figure presents a line of code. The line of code contains a nested block of code. Line 1: [begin block] Multiply [begin block] 2, −5 [end block] [end block]
+* The figure presents a line of code. The line of code contains a nested block of code. Line 1: [begin block] Multiply [begin block] −2, 5 [end block] [end block]
+* The figure presents a line of code. The line of code contains a nested block of code. Line 1: [begin block] Multiply [begin block] −2, −5 [end block] [end block]
+
+## Corrections
+I picked B and C but I mistakened the code segment. As a result, B and D was the correct answer because y doesn't meet the condition and the code never executes
+
+## Question 17
+### Which of the following best compares the execution times of the two versions of the program?
+* Version I requires approximately 1 more minute to execute than version II.
+* Version I requires approximately 5 more minutes to execute than version II.
+* Version II requires approximately 1 more minute to execute than version I.
+* Version II requires approximately 5 more minutes to execute than version I.
+
+## Corrections
+I picked C, but I had a feeling that the answer was D. Each time the loop runs the procedure is called twice, not once and ends up being 9 vs 4
+
+## Question 41
+### Which of the following could be used to replace steps 3 and 4 so that the algorithm works as intended?
+* Step 3
+Increase the value of position by 1.
+Step 4
+Repeat steps 2 and 3 until the value of count is greater than 100.
+* Step 3
+Increase the value of position by 1.
+Step 4
+Repeat steps 2 and 3 until the value of position is greater than n.
+* Step 3
+Repeat step 2 until the value of count is greater than 100.
+Step 4
+Increase the value of position by 1.
+* Step 3
+Repeat step 2 until the value of position is greater than n.
+Step 4
+Increase the value of count by 1.
+
+## Corrections
+
+## Question
+###
+
+## Corrections
