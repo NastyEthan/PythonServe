@@ -187,8 +187,14 @@ Step 4
 Increase the value of count by 1.
 
 ## Corrections
+I picked B instead of D, mistakening the count by writing it again. Since the count was already added by 1, position needs to increase in order to go down the list.
 
-## Question
-###
+## Question 48
+### Which of the following best explains how a certificate authority is used in protecting data?
+* A certificate authority certifies the safety of a particular Web site so that users know that it does not contain any viruses.
+* A certificate authority issues passwords that grant access to secure databases.
+* A certificate authority maintains a secure database that maps all Web domain names to the IP addresses of the servers where the sites are hosted.
+* A certificate authority verifies the authenticity of encryption keys used in secured communications
 
 ## Corrections
+The answer here is D. I simply didn't know this question and had to guess, knowing vocabulary better would've helped me but now I know for future questions.
